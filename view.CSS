@@ -1,0 +1,56 @@
+div{
+    width:500px ;
+    color: blueviolet;
+    padding: 5px 10px;
+    background: rgba(255, 182, 193, 0.796);
+    border: 3px solid rgb(222, 184, 135);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px 0 #0007;
+    box-sizing: border-box;
+}
+
+.Verde{
+    background: rgba(172, 255, 47, 0.532);
+}
+
+.amarillo
+{
+    background: rgba(255, 255, 0, 0.558);
+}
+
+.marron{
+    background: rgba(87, 25, 25, 0.585);
+}
+
+h1{
+    color: red;
+    background: lightcyan;
+    font-size: 22px;
+    padding: 5px;
+    border: 3px solid lightcyan;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    color: black;
+    background: lightcoral;
+    padding: 5px 3px;
+    margin-top: 25px;
+}
+
+.lista{
+    color: black;
+    background-color: dimgrey;
+    width: 20%;
+    padding: 2px 1%;
+    border-radius: 0px;
+    text-align: left;
+    margin: 2.5%;
+    margin-left: 10%;
+}

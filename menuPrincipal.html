@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú Principal - Feedlot</title>
+  <link rel="stylesheet" href="menuP.css"/>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+      <i data-feather="monitor"></i>
+    </div>
+    <nav class="menu">
+      <a href="#"><i data-feather="activity"></i></a>
+      <a href="#"><i data-feather="bar-chart-2"></i></a>
+      <a href="#"><i data-feather="box"></i></a>
+      <a href="#"><i data-feather="grid"></i></a>
+      <a href="#"><i data-feather="settings"></i></a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header class="header">
+      <h1>Menú Principal</h1>
+      <div class="tabs">
+        <button class="tab">Dashboard</button>
+        <button class="tab">Corrales</button>
+        <button class="tab">Reportes</button>
+      </div>
+    </header>
+
+    <section class="corrales">
+      <div class="corral-card">
+        <h2>Corral 1</h2>
+        <select><option>Ver Detalle</option></select>
+      </div>
+      <div class="corral-card">
+        <h2>Corral 2</h2>
+        <select><option>Ver Detalle</option></select>
+      </div>
+      <div class="corral-card">
+        <h2>Corral 3</h2>
+        <select><option>Ver Detalle</option></select>
+      </div>
+      <div class="corral-card">
+        <h2>Corral 4</h2>
+        <select><option>Ver Detalle</option></select>
+      </div>
+    </section>
+
+    <section class="informes">
+      <div class="informe">
+        <h3>Informe de Engorde</h3>
+        <div class="placeholder"></div>
+      </div>
+      <div class="informe">
+        <h3>Eficiencia Alimenticia</h3>
+        <div class="placeholder"></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
